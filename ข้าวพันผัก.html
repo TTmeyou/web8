@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+  <!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+    <title>ของกินอุตรดิตถ์</title>
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <!--<img src="logo.png" alt="">-->
+                </span>
+                <div class="text logo-text">
+                        <span class="name">THE LOCAL <br>RESTAURANT</br></span>
+                        <span class="profession">@UTTARADIT</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+
+
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="index.html">
+                            <i class='bx bx-home-heart bx-tada icon' ></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="ขนมเทียนเสวย.html">
+                            <i class='bx bxs-party bx-tada icon' ></i>
+                            <span class="text nav-text">ขนมเทียนเสวย</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="ขนมวง.html">
+                            <i class='bx bx-buoy bx-tada icon' ></i>
+                            <span class="text nav-text">ขนมวง</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="ข้าวพันผัก.html">
+                            <i class='bx bxs-bowl-hot bx-tada icon' ></i>
+                            <span class="text nav-text">ข้าวพันผัก</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="number.html">
+                            <i class='bx bx-run bx-tada icon' ></i>
+                            <span class="text nav-text">สมาชิก</span>
+                        </a>
+                    </li>
+
+                    
+
+                </ul>
+            </div>
+
+            <div class="bottom-content ">
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+         
+
+
+
+    </nav>
+      <section class="home">
+         <div class="text">ร้านป้อมข้าวพันผัก</div>
+         <div class="displayed" style="width: 25em;">
+            <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="image/หน้าร้าน.jpg" style="width:100%">
+                <img class="mySlides" src="image/2.jpg" style="width:100%">
+                <img class="mySlides" src="image/ข้าวแคบ.pg.jpg" style="width:100%">
+                <img class="mySlides" src="image/4.jpg" style="width:100%">
+                <img class="mySlides" src="image/3พัน.jpg" style="width:100%">
+                <img class="mySlides" src=image/5.jpg" style="width:100%">
+            </div>
+          </div>
+        
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+          <div class="h2">ประวัติและที่มา</div>
+           <p class="ppic h5">ข้าวพันผัก” เป็นอาหารพื้นบ้านที่มีชื่อเสียงของเมืองลับแล จังหวัดอุตรดิตถ์ เกิดจากภูมิปัญญาของบรรพบุรุษในการถนอมอาหาร
+             ที่มีมาอย่างช้านาน และเป็นที่นิยมรับประทานกันอย่างแพร่หลาย แต่เดิมนั้นใช้ข้าวจ้าวหมักกับน้ำจนเป็นแป้งหมัก แต่ปัจจุบันมีแป้งสำเร็จรูป(แป้งหมักขนมจีน)
+             ทำให้สะดวกในการทำมากขึ้น ข้าวพันผักจะมีส่วนผสมของแป้งกับผักต่างๆ นำมาอบให้สุกและรับประทานกับน้ำจิ้ม ปัจจุบันมีการดัดแปลงเมนูข้าวพันผักให้
+             มีความหลากหลายมากขึ้น โดยการใส่เนื้อสัตว์ต่างๆ ไม่ว่าจะเป็นเนื้อหมู เนื้อไก่ ไส้กรอก ลูกชิ้น ไข่ไก่หรือไข่เป็ด รวมไปถึงวุ้นเส้น เส้นก๋วยเตี๋ยว 
+             หรือเส้นบะหมี่ลงไปด้วย ทำให้เพิ่มคุณค่าทางโภชนาการมากขึ้น เมนูดีๆ แบบนี้ ของแท้หารับประทานได้ที่เมืองลับแลเท่านั้น
+          </p>
+          <div class="h2">วัตถุดิบและอุปกรณ์</div>
+          <p class="h4 h5"><br>1.ชุดหม้อทำข้าวพัน ประกอบไปด้วย หม้อทำข้าวพัน ฝาหม้อ ไม้ข้าวพัน โหลน้ำทรงสูง และจวัก</br>
+            <br>2.แป้งหมัก เป็นแป้งหมักชนิดเดียวกับแป้งทำขนมจีน</br>
+            <br>3.ผักต่างๆ เช่น คะน้า กะหล่ำปลี ผักบุ้ง แครอท เห็ดเข็มทอง ถั่วงอก ฯลฯ</br>
+            <br>4.ไข่ จะใช้เป็นไข่ไก่หรือไข่เป็ด</br>
+            <br>5.เนื้อสัตว์ อาจจะเป็นเนื้อหมู เนื้อไก่ ไส้กรอก ลูกชิ้น หรือที่เราชอบ</br>
+            <br>6.เครื่องปรุงรส ได้แก่ เกลือป่น พริกป่น งาดำ ซอสปรุงรส น้ำปลา น้ำตาล</br>
+            <br>7.วุ้นเส้น เครื่องเคียง ได้แก่ แคบหมู กระเทียมเจียว และน้ำจิ้มสำหรับข้าวพันผัก</br>
+ 
+         </p>
+         <div style="text-align: center;">
+            <video width="480" height="320" loop controls>
+                <source src="image/pun.mp4" type="video/mp4"/>
+                <source src="image/pun.ogg" type="video/ogg"/>
+            </video>
+        </div>
+         <div class="h2">ขั้นตอนวิธีทำ</div>
+          <p class="h5"><br>1.นำแป้งหมักมาล้างน้ำสะอาด 1 น้ำ แล้วนำมาผสมกับน้ำเปล่าให้เข้ากัน โดยใช้อัตราส่วน 1:1 โดยประมาณ</br>
+            <br>2.ใช้มือบีบเนื้อแป้งให้ละลายแล้วคนให้เป็นเนื้อเดียวกันกับน้ำจนแป้งจะมีลักษณะข้นๆ ไม่เหลวหรือเหนียวจนเกินไป</br>
+            <br>3.นำแป้งที่เราละลายน้ำเรียบร้อยแล้วมาเติมเกลือป่นลงไปเล็กน้อย</br>
+            <br>4.ใส่งาดำที่ล้างสะอาดและขั้วสุกแล้วลงไปแล้วคนให้เข้ากัน</br>
+            <br>5.ลักษณะหม้อข้าวพันจะมีผ้าขึงอยู่ และด้านบนปากหม้อจะมีรูเล็กๆ สำหรับให้เติมน้ำและให้ไอความร้อนขึ้นมาทำให้ข้าวพันสุก</br>
+            <br>6.เติมน้ำเปล่าลงไปตรงรูเล็กๆ เติมประมาณครึ่งหม้อ</br>
+            <br>7.ตั้งหม้อให้เดือดค่ะ ใช้ไฟแรงและสม่ำเสมอ</br>
+            <br>8.ตักมาประมาณ 1 จวัก มาละเลงลงบนผืนผ้าที่ปากหม้อ โดยละเลงเป็นลักษณะแผ่นกลมๆ</br>
+            <br>9.ปิดฝาหม้อไว้ประมาณ 30-60 วินาทีและรอให้แป้งสุก</br>
+            <br>10.เมื่อแป้งสุกแล้วก็เปิดฝาหม้อ</br>
+            <br>11.นำไข่มาตีให้ฟูแล้วตักมาละเลงบนแป้งที่สุก</br>
+            <br>12.จากนั้นปิดฝาทิ้งไว้ประมาณ 30-60 วินาที และรอให้ไข่สุก</br>
+            <br>13.นำผักต่างๆ เนื้อสัตว์ วุ้นเส้น ฯลฯ ที่เราเตรียมไว้มาใส่ แล้วก็ปิดฝาหม้อไว้ประมาณ 3 นาที</br>
+            <br>14.เมื่อสุกแล้วเราก็เปิดฝาหม้อและนำไม้ข้าวพันมาพับแป้งห่อข้าวพันผักและตักใส่จาน</br>
+         </p>
+      </section>
+
+    <script>
+        const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+    sidebar.classList.remove("close");
+})
+
+modeSwitch.addEventListener("click" , () =>{
+    body.classList.toggle("dark");
+    
+    if(body.classList.contains("dark")){
+        modeText.innerText = "Light mode";
+    }else{
+        modeText.innerText = "Dark mode";
+        
+    }
+});
+    </script>
+
+</body>
+</html>

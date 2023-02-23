@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+  <!-- Coding by CodingLab | www.codinglabweb.com -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!----===== Boxicons CSS ===== -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+    <title>ของกินอุตรดิตถ์</title>
+</head>
+<body>
+    <nav class="sidebar close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <!--<img src="logo.png" alt="">-->
+                </span>
+                <div class="text logo-text">
+                        <span class="name">THE LOCAL <br>RESTAURANT</br></span>
+                        <span class="profession">@UTTARADIT</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+
+
+
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='bx bx-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link">
+                        <a href="index.html">
+                            <i class='bx bx-home-heart bx-tada icon' ></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="ขนมเทียนเสวย.html">
+                            <i class='bx bxs-party bx-tada icon' ></i>
+                            <span class="text nav-text">ขนมเทียนเสวย</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="ขนมวง.html">
+                            <i class='bx bx-buoy bx-tada icon' ></i>
+                            <span class="text nav-text">ขนมวง</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="ข้าวพันผัก.html">
+                            <i class='bx bxs-bowl-hot bx-tada icon' ></i>
+                            <span class="text nav-text">ข้าวพันผัก</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="number.html">
+                            <i class='bx bx-run bx-tada icon' ></i>
+                            <span class="text nav-text">สมาชิก</span>
+                        </a>
+                    </li>
+
+                    
+
+                </ul>
+            </div>
+
+            <div class="bottom-content ">
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+                
+            </div>
+        </div>
+         
+
+
+
+    </nav>
+    <section class="home">
+         <div class="text">ร้านขนมเทียนเสวย ชิดดวง กนกมณี</div>
+         <div class="displayed" style="width: 25em;">
+            <div class="w3-content w3-section" style="max-width:500px" >
+                <img class="mySlides" src="image/S__16343064.jpg" style="width:100%">
+                <img class="mySlides" src="image/S__16343068.jpg" style="width:100%">
+                <img class="mySlides" src="image/S__16343069.jpg" style="width:100%">
+                <img class="mySlides" src="image/000.jpg"  style="width:100%">
+                <img class="mySlides" src="image/S__16343070.jpg" style="width:100%">
+                <img class="mySlides" src="image/S__16343066.jpg" style="width:100%">
+            </div>
+          </div>
+        
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              for (i = 0; i < x.length; i++) {
+                 x[i].style.display = "none";  
+              }
+              myIndex++;
+              if (myIndex > x.length) {myIndex = 1}    
+              x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>
+          
+          <div class="h2">ประวัติและที่มา</div>
+           <p class="ppic h5">คุณชิดดวง กนกมณี เป็นบุตรี พระยาอัธยาศัยวิสุทธิ์ ( โชติ กนกมณี ) อดีตเจ้าเมืองอุตรดิตถ์ ซึ่งหลังเกษียณอายุราชการ
+            เมื่อ พ.ศ. 2476 ท่านเจ้าคุณและครอบครัวได้ตัดสินใจสร้างหลักปักฐานพำนักอยู่ที่ อุตรดิตถ์ ภายหลังจากท่านเจ้าคุณได้ถึงแก่กรรมเมื่อประมาณ
+            ปี พ.ศ. 2509 ด้วยความที่คุณชิดดวง เป็นคนที่มีใจรักและสนใจในการประกอบอาหารคาวหวานประกอบกับเป็นผู้มีฝีมือละเอียดประณีตจึงได้
+            ดำริคิดทำขนมเทียนเสวยขึ้นเพื่อเป็นการประกอบสัมมาอาชีพตั้งแต่บัดนั้นเป็นต้นมา  ด้วยความอร่อยและคงเอกลักษณ์ความเป็นขนมไทยโบราณ 
+            ซึ่งในทุกขั้นตอนของการผลิตต้องอาศัยความประณีตบรรจงจึงทำให้ขนมเทียนเสวยของคุณชิดดวงมีชื่อเสียง
+            และเป็นที่ยอมรับของชาวอุตรดิตถ์รวมถึงนักท่องเที่ยวที่มาเยือนเสมอมา
+          </p>
+         <div class="h2">วัตถุดิบ</div>
+          <p class="h5 content"><br>แป้งข้าวเหนียวโม่สด</br>
+            <br>กะทิ</br>
+            <br>งาขาว</br>
+            <br>น้ำตาลทรายแดง</br>
+            <br>และน้ำผึ้ง</br>
+         </p>
+         <div style="text-align: center;">
+             <video width="480" height="320" loop controls>
+                 <source src="image/698501568.466310.mp4" type="video/mp4"/>
+                 <source src="image/698501568.466310 (1).ogg" type="video/ogg"/>
+             </video>
+         </div>
+         <div class="h2">ขั้นตอนวิธีทำ</div>
+          <p class="h5"><br>1.นำข้าวเหนียวมาโม่สดๆ ให้ได้แป้งข้าวเหนียวแล้วทิ้งไว้ 1 คืน</br>
+            <br>2.นำแป้งที่ได้ลงไปกวนในกระทะทองเหลือง ใช้ไฟอ่อนๆ กวนไปเรื่อยๆ จนเริ่มจับตัวเป็นก้อน</br>
+            <br>3.ใส่กะทิลงไปกวนให้เข้ากัน ใส่น้ำตาลทรายแดง แล้วใส่น้ำผึ้ง</br>
+            <br>4.กวนจนเข้ากันดีและเหนียวได้ที่</br>
+            <br>5.ทิ้งไว้ให้เย็น</br>
+            <br>6.นำไปอบควันเทียนทิ้งไว้ 1 คืน </br>
+            <br>7.นำงาขาวไปคั่วให้เหลืองทั่วกันและมีกลิ่นหอม</br>
+            <br>8.นำไปอบควันเทียน </br>
+            <br>9.ตัดแต่งใบตองให้เรียบร้อยเป็นวงกลมขนาดพอดี</br>
+            <br>10.ใช้เตารีดถ่าน (เตารีดแบบโบราณ) มารีดทับบนใบตองให้แห้งและมีกลิ่นหอม</br>
+            <br>11.นำใบตองที่ได้ไปพรมน้ำและทิ้งไว้ก่อน 1 คืน</br>
+            <br>12.นำแป้งที่อบควันเทียนแล้ว ตัดเป็นชิ้นเล็กๆ พอคำ</br>
+            <br>13.นำมาคลุกกับงาขาวอบควันเทียนและห่อด้วยใบตอง</br>
+            <br>14.นำเข้าไปอบควันเทียนอีกครั้ง</br>
+         </p>
+      
+    </section>
+
+    <script>
+        const body = document.querySelector('body'),
+      sidebar = body.querySelector('nav'),
+      toggle = body.querySelector(".toggle"),
+      searchBtn = body.querySelector(".search-box"),
+      modeSwitch = body.querySelector(".toggle-switch"),
+      modeText = body.querySelector(".mode-text");
+
+
+toggle.addEventListener("click" , () =>{
+    sidebar.classList.toggle("close");
+})
+
+searchBtn.addEventListener("click" , () =>{
+    sidebar.classList.remove("close");
+})
+
+modeSwitch.addEventListener("click" , () =>{
+    body.classList.toggle("dark");
+    
+    if(body.classList.contains("dark")){
+        modeText.innerText = "Light mode";
+    }else{
+        modeText.innerText = "Dark mode";
+        
+    }
+});
+    </script>
+
+</body>
+</html>
